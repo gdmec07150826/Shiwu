@@ -19,5 +19,5 @@
     <color name="title_black">#FFFFFF</color>
 
     <!-- 头部颜色 -->
-    <color name="top_bg_color"> #323a45</color>
+    <color name="top_bg_color">#579dfd</color>
 </resources>
