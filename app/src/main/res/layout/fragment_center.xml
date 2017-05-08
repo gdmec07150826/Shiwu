@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/root_bg_color"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:text="个人中心"
+            android:drawableLeft="@drawable/common_problem"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/right_arrow"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_marginTop="1dp"
+            android:text="切换账号"
+            android:drawableLeft="@drawable/common_problem"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/right_arrow"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_marginTop="1dp"
+            android:text="修改密码"
+            android:drawableLeft="@drawable/common_problem"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/right_arrow"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:text="分享应用"
+            android:drawableLeft="@drawable/common_problem"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/right_arrow"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_marginTop="1dp"
+            android:text="问题反馈"
+            android:drawableLeft="@drawable/common_problem"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/right_arrow"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:text="系统通知"
+            android:drawableLeft="@drawable/common_problem"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/right_arrow"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_marginTop="1dp"
+            android:text="关于我们"
+            android:drawableLeft="@drawable/common_problem"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/right_arrow"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_marginTop="1dp"
+            android:text="帮助"
+            android:drawableLeft="@drawable/common_problem"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/right_arrow"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_marginTop="1dp"
+            android:text="清除缓存"
+            android:drawableLeft="@drawable/common_problem"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/right_arrow"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

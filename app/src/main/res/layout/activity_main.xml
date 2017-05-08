@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.edu.gdmec.s07150826.shiwu.MainActivity">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></android.support.v4.view.ViewPager>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom">
+
+        <RadioButton
+        android:text="失物招领"
+            android:button="@null"
+        android:id="@+id/home_rb"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+            android:textColor="@color/bottom_rb_text_color"
+            android:drawableTop="@drawable/rb_home"
+            android:gravity="center"
+            android:drawablePadding="3dp"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:text="发布信息"
+            android:button="@null"
+            android:id="@+id/collection_rb"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bottom_rb_text_color"
+            android:drawableTop="@drawable/rb_rim"
+            android:gravity="center"
+            android:drawablePadding="3dp"
+            android:checked="false"
+            />
+
+        <RadioButton
+            android:text="消息"
+            android:button="@null"
+            android:id="@+id/message_rb"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bottom_rb_text_color"
+            android:drawableTop="@drawable/rb_message"
+            android:gravity="center"
+            android:drawablePadding="3dp"
+            android:checked="false"
+            />
+        <RadioButton
+            android:text="个人中心"
+            android:button="@null"
+            android:id="@+id/center_rb"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bottom_rb_text_color"
+            android:drawableTop="@drawable/rb_center"
+            android:gravity="center"
+            android:drawablePadding="3dp"
+            android:checked="false"
+            />
+
+
+    </RadioGroup>
+</LinearLayout>
